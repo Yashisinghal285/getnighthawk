@@ -4,13 +4,6 @@ on:
   pull_request_target:
     branches: [master]
     types: [opened, synchronize, reopened, closed]
-    paths:
-      - '!**'
-      - 'docs/**'
-      - 'Makefile'
-      - 'CNAME'
-      - '.github/workflows/build-and-deploy-site.yml'
-      - '.github/workflows/build-and-preview-site.yml'
 
 permissions:
   contents: write
